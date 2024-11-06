@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#wrapper {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+header {
+    flex: 0 0 150px;
+    width: 100%;
+}
+
+nav {
+    flex: 0 0 45px;
+    width: 100%;
+}
+
+main {
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+footer {
+    flex: 0 0 35px;
+    width: 100%;
+}
+
+body {
+    background-color: #B0C4B1;
+    background-image: url('../images/background.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Kopfbereich */
+header {
+    position: relative;
+    background-color: rgba(237, 175, 184, 0.7);
+    border: 1px solid #4a5759;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 15px;
+}
+
+#signetBox {
+    position: absolute;
+    left: 510px;
+    width: 180px;
+    height: 180px;
+    border: 1px solid #4A5759;
+    background-color: #DEDBD2;
+    border-radius: 90px;
+}
+
+#signetBox img {
+    position: relative;
+    top: 10px;
+    left: 3px;
+    width: 180px;
+    height: auto;
+}
+
+header h1 {
+    position: absolute;
+    left: 25px;
+    top: 15px;
+    font-family: Tahoma;
+    font-size: 26px;
+    color: #4A5759;
+    
+}
+
+header h2 {
+    position: absolute;
+    right: 25px;
+    bottom: 15px;
+    font-family: Tahoma;
+    font-size: 18px;
+    color: #4A5759;
+    font-style: italic;
+}
+
+/* Navigation */
+nav {
+    border-radius: 20px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(74, 87, 89);
+    background-color: rgba(176, 196, 177, 0.7);
+}
+
+nav #mainNav {
+
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-left: -48px;
+}
+
+nav #mainNav li {
+
+    height: 100%;
+    border-left: 1px solid rgb(74, 87, 89);
+}
+
+nav #mainNav li:last-child {
+
+    border-right: 1px solid rgb(74, 87, 89);
+}
+
+nav #mainNav li:nth-child(4) {
+    width: 100px;
+}
+
+nav #mainNav li a {
+
+    font-family: Tahoma;
+    font-size: 23px;
+    text-decoration: none;
+    padding: 7px 10px 0;
+    display:inline-block;
+    height: 100%;
+    color: rgb(74, 87, 89);
+
+}
+
+nav #mainNav li a:hover {
+    background-color: rgb(176, 196, 177);
+    text-shadow: 1px 1px 1px #F7E1D7;
+}
+
+nav #mainNav li a:visited {
+    color: rgb(74, 87, 89);
+}
+
+nav #mainNav li span {
+
+    font-family: Tahoma;
+    font-size: 23px;
+    padding: 7px 10px 0;
+    display:inline-block;
+    height: 100%;
+    background-color: rgb(176, 196, 177);
+    color: rgb(74, 87, 89);
+    text-shadow: 1px 1px 1px #F7E1D7;
+
+}
+
+
+
+
+/* Fußbereich */
+footer {
+    background-color: rgb(237, 175, 184);
+    border: 1px solid #4a5759;
+    border-radius: 20px 20px 0 0;
+    margin-top: 15px;
+}
+
+address {
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-family: Tahoma;
+    font-size: 14px;
+    color: #4A5759;
+    padding-top: 8px;
+}
+
+address a {
+
+    color: #4A5759;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+address a:hover {
+    color: #DEDBD2;
+    text-shadow: 1px 1px 1px #4a5759;
+}
+
+/* Hauptbereich */
+main {
+    background-color: rgba(237, 175, 184, 0.7);
+    border: 1px solid #4a5759;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+
+

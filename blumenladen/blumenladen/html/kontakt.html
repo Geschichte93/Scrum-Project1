@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Blumenladen</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+    
+        <div id="wrapper">
+            <header>
+                <div id="signetBox">
+                    <img src="../images/signet.png" alt="Signet Blumenladen">
+                </div>
+                <h1>Flora - Der Blumenladen</h1>
+                <h2>"Zu jeder Gelegenheit die passenden Dornen"</h2>
+            </header>
+            <nav>
+                <ul id="mainNav">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="bilder.html">Bilder</a>
+                        <ul class="subNav">
+                            <li><a href="bilder_1.html">Bilder 1</a></li>
+                            <li><a href="#">Bilder 2</a></li>
+                            <li><a href="#">Bilder 3</a></li>
+                            <li><a href="#">Bilder 4</a></li>
+                        </ul>
+                    </li>
+                    <li></li>
+                    <li><span>Kontakt</span></li>
+                    <li><a href="impressum.html">Impressum</a></li>
+                </ul>
+            </nav>
+            <main>
+                <h2>Kontakt</h2>
+
+                <fieldset>
+                <legend>Kontaktformular</legend>
+                <form action="#" method="post">
+
+                    <div id="genderBox">
+                        <label for="male">männlich</label>
+                        <input type="radio" name="geschlecht" id="male">
+                        <label for="female">weiblich</label>
+                        <input type="radio" name="geschlecht" id="female">
+                        <label for="divers">divers</label>
+                        <input type="radio" name="geschlecht" id="divers">
+                    </div>
+
+
+                    <label for="vorname">Vorname:</label>
+                    <input type="text" name="vorname" placeholder="Vorname" id="vorname" title="vorname" required>
+                    <label for="nachname">Nachname:</label>
+                    <input type="text" name="nachname" placeholder="Nachname" id="nachname" required oninvalid="this.setCustomValidity('Gib halt was ein')">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+
+                    <label for="grund">Grund:</label>
+                    <select name="grund" id="grund">
+                        <option value="Lob">Lob</option>
+                        <option value="Tadel">Tadel</option>
+                        <option value="Anregung">Anregung</option>
+                        <option value="Nix" disabled selected hidden>auswählen</option>
+                    </select>
+
+                    <label for="text">Nachricht:</label>
+                    <textarea id="text" name="text" placeholder="Ihre Nachricht" maxlength="150"></textarea>
+
+                    <div id="newsBox">
+                        <input type="checkbox" name="newsletter" id="newsletter" value="confirmNewsletter">
+                        <label for="newsletter">Ich möchte unbedingt den Newsletter erhalten</label>
+                    </div>
+
+                    <div id="buttonBox">
+                        <input type="reset" name="reset" value="zurücksetzen">
+                        <input type="submit" name="submit" value="absenden">
+                    </div>
+
+                </form>
+                </fieldset>
+
+            </main>
+            <footer>
+                <address>2024 &copy; <a href="#" alt="Verweis Kurs">Kurs LF10a</a></address>
+            </footer>
+        </div>
+
+    </body>
+</html>

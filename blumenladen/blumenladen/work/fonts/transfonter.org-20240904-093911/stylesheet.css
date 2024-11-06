@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Arizonia';
+    src: url('../fonts/Arizonia-Regular.eot');
+    src: url('../fonts/Arizonia-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Arizonia-Regular.woff2') format('woff2'),
+        url('../fonts/Arizonia-Regular.woff') format('woff'),
+        url('../fonts/Arizonia-Regular.ttf') format('truetype'),
+        url('../fonts/Arizonia-Regular.svg#Arizonia-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GREEN NATURE';
+    src: url('GREENNATURE.eot');
+    src: url('GREENNATURE.eot?#iefix') format('embedded-opentype'),
+        url('GREENNATURE.woff2') format('woff2'),
+        url('GREENNATURE.woff') format('woff'),
+        url('GREENNATURE.ttf') format('truetype'),
+        url('GREENNATURE.svg#GREENNATURE') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('Lora-Bold.eot');
+    src: url('Lora-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Lora-Bold.woff2') format('woff2'),
+        url('Lora-Bold.woff') format('woff'),
+        url('Lora-Bold.ttf') format('truetype'),
+        url('Lora-Bold.svg#Lora-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('Lora-Italic.eot');
+    src: url('Lora-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Lora-Italic.woff2') format('woff2'),
+        url('Lora-Italic.woff') format('woff'),
+        url('Lora-Italic.ttf') format('truetype'),
+        url('Lora-Italic.svg#Lora-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('Lora-Regular.eot');
+    src: url('Lora-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Lora-Regular.woff2') format('woff2'),
+        url('Lora-Regular.woff') format('woff'),
+        url('Lora-Regular.ttf') format('truetype'),
+        url('Lora-Regular.svg#Lora-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('Lora-BoldItalic.eot');
+    src: url('Lora-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Lora-BoldItalic.woff2') format('woff2'),
+        url('Lora-BoldItalic.woff') format('woff'),
+        url('Lora-BoldItalic.ttf') format('truetype'),
+        url('Lora-BoldItalic.svg#Lora-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
